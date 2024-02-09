@@ -15,7 +15,7 @@ namespace Distributedsqlservercache.Classes
         public T Get<T>(string Key)
         {
             var result = distributedCache.GetString(Key);
-            return JsonConvert.DeserializeObject<T>(result);
+            return JsonConvert.DeserializeObject<T>(result ?? "0");
         }
 
         public void Set<T>(string key, T value)

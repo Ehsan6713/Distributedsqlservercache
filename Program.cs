@@ -1,7 +1,9 @@
+using Distributedsqlservercache.Classes;
 using Distributedsqlservercache.InterFaces;
 using Microsoft.Extensions.Caching.Distributed;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddTransient<IDistributedCachAdapter, DistributedCachAdapter>();
 builder.Services.AddDistributedSqlServerCache(x =>
 {
     x.SchemaName = "dbo";

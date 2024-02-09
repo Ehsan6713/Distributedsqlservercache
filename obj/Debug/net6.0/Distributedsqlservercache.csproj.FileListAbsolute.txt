@@ -65,3 +65,4 @@ D:\Git\Distributedsqlservercache\obj\Debug\net6.0\refint\Distributedsqlservercac
 D:\Git\Distributedsqlservercache\obj\Debug\net6.0\Distributedsqlservercache.pdb
 D:\Git\Distributedsqlservercache\obj\Debug\net6.0\Distributedsqlservercache.genruntimeconfig.cache
 D:\Git\Distributedsqlservercache\obj\Debug\net6.0\ref\Distributedsqlservercache.dll
+D:\Git\Distributedsqlservercache\bin\Debug\net6.0\Newtonsoft.Json.dll
